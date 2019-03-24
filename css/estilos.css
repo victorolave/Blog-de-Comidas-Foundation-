@@ -14,7 +14,7 @@
 
 /*clase del contenedor*/
 .contenedor {
-	background-color: chocolate;
+	background-color: darkcyan;
 	opacity: 0.85;
 }
 
@@ -44,15 +44,15 @@
 
 /*clase de contenido*/
 .contenido {
-	background-color: lightgreen;
+	background-color: white;
 }
 
 .comentarios {
-	border-top: solid 2px white;
+	border-top: solid 2px green;
 }
 
 .usuario {
-	background-color: lightgreen;
+	background-color: white;
 }
 
 /*clase de imagenes*/

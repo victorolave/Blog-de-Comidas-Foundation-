@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="" media="screen" charset="utf-8">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
     <title>Blog de Gastronomía</title>
@@ -13,8 +14,9 @@
 <body class="gastronomia-body">
     
     <div class="sticky-container">
-        <div class="row contenedor">
-            <!-- Header  -->
+
+        <!-- Header  -->
+        <div class="row contenedor">         
 			<header class="column medium-12 large-12 hide-for-small-only encabezado padding-vertical-1">
 				<div class="row">
 					<div class="column small-4" id="encabezado">
@@ -25,6 +27,186 @@
 			</header>			
         </div>
         
+        <div class="row contenedor secciones">
+                
+            <section class="column medium-5 large-4 hide-for-small-only margin-top-1">
+                    
+
+                    <aside class="card padding-1" id="busqueda" style="color: forestgreen">				
+    
+                        <form class="buscador">
+                            <div class="input-group">																				
+                                <input class="form-control" type="text">
+                                <div class="">
+                                        <button type="submit" class="button fi-magnifying-glass" style="background-color: green"></button>
+                                </div>
+                            </div>
+                        </form>								
+                        
+                        <nav>
+                            <ul class="vertical menu align-center">
+                                <li><a class="hollow button expanded success" href="#">Inicio</a></li>	
+                                <li  style="padding-top: 10px"><a class="hollow button expanded success" href="#">Recetas</a></li>
+                                <li  style="padding-top: 10px"><a class="hollow button expanded success" href="#">Mi plato perfecto</a></li>
+                            </ul>
+                        </nav>
+                        <br>
+                        
+                        <div style="padding-top: 20px">
+                            <legend>Favoritos:</legend>
+                            <div class="row margin-bottom-0">
+                                <div class="column small-4"><a href=""><img src="images/empanada.jpg" class="thumbnail"></a></div>
+                                <div class="column small-4"><a href=""><img src="images/tamal.jpg" class="thumbnail"></a></div>
+                                <div class="column small-4"><a href=""><img src="images/APLANCHADO_WIKI.jpg" class="thumbnail"></a></div>
+                            </div>
+                            <br>
+                            <div class="row margin-top-0">
+                                <div class="column small-4"><a href=""><img src="images/champus-533777.jpg" class="thumbnail"></a></div>
+                                <div class="column small-4"><a href=""><img src="images/carantanta.jpg" class="thumbnail"></a></div>
+                                <div class="column small-4"><a href=""><img src="images/pastel.jpg" class="thumbnail"></a></div>
+                            </div>
+                        </div>
+                        <br>
+                        
+                        <div>
+                            <legend>Historial:</legend>
+                            <ul class="vertical menu">
+                                <li><a href="#" style="color: forestgreen">Empanada de Pipian</a></li>
+                                <li><a href="#" style="color: forestgreen">Tamal</a></li>
+                                <li><a href="#" style="color: forestgreen">Otros</a></li>	
+                            </ul>  
+                        </div>
+                        
+                    </aside>			
+                        
+                </section >
+            
+                <section class="column small-12 medium-7 large-8 margin-top-1">
+                
+                    <article class="card padding-1 contenido">
+                    
+                        <div class="row">
+                            
+                            <div class="column small-12">
+                                <h4>Empanadas de Pipian</h4>
+                                <strong style="color: forestgreen">24/03/2019, Popayán</strong>
+                                <img src="images/empanadas-de-pipian-712720.jpg">
+                                <p class="text-justify margin-top-1">
+                                        Remoja el maíz en agua durante cinco días, cambiando el agua a diario y revolviendo con un cucharón. Luego retira el agua y muele, deje decantar y retira el agua de la superficie (reserve esta agua).<br>
+                                        Coloca la masa a cocinar en un caldero con sus paredes previamente untadas con aceite, mezclando continuamente. Al cabo de unas 2 horas, retira, deje enfria y amasa utilizando el agua reservada para suavizarla. Deja reposar por dos horas tapando con un paño húmedo o con hojas de plátano.<br>                           
+                                        Para el relleno de pipián, en una olla grande con el aceite vegetal sofríe la cebolla, el ajo y el achiote. Luego añade la papa, vierta agua o caldo de pollo hasta apenas cubrir, agrega las hierbas y las especias, y cocina hasta que las papas se deshagan. Agrega el maní, cocina unos minutos más y deja enfriar.<br>
+                                        Haz bolitas pequeñas con la masa, extiende sobre un plástico, acomoda una cucharadita de relleno y sella muy bien. Fríe con cuidado en aceite hondo hasta dorar y acompaña con ají de maní.<br>
+                                </p>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="comentarios row column padding-top-1">
+                              <fieldset>
+                                    <legend><strong>Escribe tus comentarios:</strong></legend>
+                                    <textarea class="margin-bottom-0"></textarea>
+                                    <div class="text-right"><button style="background-color: green; font-size: 18px" type="submit" name="enviar" class=" button expanded margin-top-0"><i class="step fi-pencil"></i> Publicar</button></div>
+                              </fieldset>
+                        </div>	
+                        
+                        <div class="usuario card">
+                        
+                            <div class="row">
+                                <div class="column small-2 align-middle margin-horizontal-0">
+                                    <img src="images/female.png" class="comentario-img">
+                                </div>
+                                <div class="column small-10 align-self-middle margin-horizontal-0">Tatiana: Que delicia!!</div>
+                            </div>
+                        
+                        </div>
+                        
+                        <div class="usuario card">
+                        
+                            <div class="row">
+                                <div class="column small-2 align-middle margin-horizontal-0">
+                                    <img src="images/male.png" class="comentario-img">
+                                </div>
+                                <div class="column small-10 align-self-middle margin-horizontal-0">Diego82: Que gran post, aprendi a hacer empanadas de pipian</div>
+                            </div>
+                        
+                        </div>	
+                        
+                        <div class="usuario card">
+                        
+                            <div class="row">
+                                <div class="column small-2 align-middle margin-horizontal-0">
+                                    <img src="images/female.png" class="comentario-img">
+                                </div>
+                                <div class="column small-10 align-self-middle margin-horizontal-0">Sofia01: Maravilloso, ya quiero visitar Popayàn</div>
+                            </div>
+                        
+                        </div>					
+                        
+                    </article>
+                    
+                    <article class="card padding-1 contenido">
+                    
+                            <div class="row">
+                                
+                                <div class="column small-12">
+                                    <h4>Tamales de Pipian</h4>
+                                    <strong style="color: forestgreen">26/03/2019, Popayán</strong>
+                                    <img src="images/tamal de pipian.jpg">
+                                    <p class="text-justify margin-top-1">
+                                            Se lavan y se pican las papas en trozos circulares ni tan gruesos ni tan delgados, se pica la cebolla larga, la cebolla cabezona y se machaca el diente de ajo y se sofrien en una cucharada de aceite vegetal.<br>
+                                            Se llevan las papas, a una olla grande a cocinar, añadiéndole solamente un vaso y medio (cafetero) de agua, y las cebollas previamente sofritas, la cucharada de color o achiote y una astilla de canela.<br>
+                                            Mientras se cocinan las papas con los otros ingredientes, se licua una bolsa de maní con un vasito y medio de agua. Posteriormente, se agrega este maní molido a la olla en donde se cocinan las papas, las cuales ya deben presentar un aspecto parecido al puré.<br>
+                                            Se continúan machacando las papas y triturándolas con una cuchara de palo, hasta que seque el puré completamente y tome una contextura espesa.<br>
+                                    </p>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="comentarios row column padding-top-1">
+                                  <fieldset>
+                                        <legend><strong>Escribe tus comentarios:</strong></legend>
+                                        <textarea class="margin-bottom-0"></textarea>
+                                        <div class="text-right"><button style="background-color: green; font-size: 18px" type="submit" name="enviar" class=" button expanded margin-top-0"><i class="step fi-pencil"></i> Publicar</button></div>
+                                  </fieldset>
+                            </div>	
+                            
+                            <div class="usuario card">
+                            
+                                <div class="row">
+                                    <div class="column small-2 align-middle margin-horizontal-0">
+                                        <img src="images/female.png" class="comentario-img">
+                                    </div>
+                                    <div class="column small-10 align-self-middle margin-horizontal-0">Tatiana: Que delicia!!</div>
+                                </div>
+                            
+                            </div>
+                            
+                            <div class="usuario card">
+                            
+                                <div class="row">
+                                    <div class="column small-2 align-middle margin-horizontal-0">
+                                        <img src="images/male.png" class="comentario-img">
+                                    </div>
+                                    <div class="column small-10 align-self-middle margin-horizontal-0">Diego82: Que gran post, aprendi a hacer tamales de pipian</div>
+                                </div>
+                            
+                            </div>	
+                            
+                            <div class="usuario card">
+                            
+                                <div class="row">
+                                    <div class="column small-2 align-middle margin-horizontal-0">
+                                        <img src="images/female.png" class="comentario-img">
+                                    </div>
+                                    <div class="column small-10 align-self-middle margin-horizontal-0">Sofia01: Maravilloso, ya quiero visitar Popayàn</div>
+                                </div>
+                            
+                            </div>					
+                            
+                        </article>
+                </section>			
+                
+            </div>
 
     </div>
 
